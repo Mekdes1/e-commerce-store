@@ -36,7 +36,7 @@ const renderSearchedProduct = () => {
            <p class="footer-par">© 2020 e-commerce store</p>
          </footer>
 
-      </body>  `;
+      </body> `;
 
   availableProducts.forEach(product => {
     const productDescription = product.description.toLocaleLowerCase();
