@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-commerce store</title>
+  <link rel="stylesheet" type="text/css" href="shopping.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">"
+  <script src="https://kit.fontawesome.com/826311d5ac.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="wrapper">
+        <ul class="nav-bar">
+          <li><a href="shopping.html">Home</a></li>
+          <li><a href="clothes.html">Clothes</a></li>
+          <li><a href="shoe.html">Shoe</a></li>
+
+        </ul>
+
+        <h1>E-commerce Store</h1>
+        <div class="icon-search">
+          <ul class="icon">
+            <li onClick="inCart()"> <i class="fa fa-shopping-basket fa-2x" aria-hidden="true"></i> </a></li>
+          </ul>
+          <div class="search-section">
+            <button id="search-button"><i class="fa fa-search"></i></button>
+            <input type="text" placeholder="Search.." name="search" id="search-item">
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <img class="mySlides"
+      src=" https://cms.qz.com/wp-content/uploads/2016/10/gettyimages-164759083-cropped.jpg?quality=80&strip=all&w=3000"
+      alt="Clothes" style="width:100%">
+
+    <div id="grid-container">
+    </div>
+
+    <footer>
+      <p class="footer-par">© 2020 e-commerce store</p>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="home.js"></script>
+    <script src="getproduct.js"></script>
+    <script src="cart.js"></script>
+  </div>
+</body>
+
+</html>
