@@ -133,7 +133,7 @@ const products = [
 
   {
     id: "1013",
-    type: "mekeup",
+    type: "meakup",
     name: "beauty",
     img: "https://source.unsplash.com/200x200?mekeup",
     price: "250",
@@ -143,7 +143,7 @@ const products = [
 
   {
     id: "1014",
-    type: "mekeup",
+    type: "meakup",
     name: "beauty",
     img: "https://source.unsplash.com/200x200?lipstick",
     price: "130",
